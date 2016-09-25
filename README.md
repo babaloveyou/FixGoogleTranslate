@@ -15,48 +15,50 @@ Extension fixing keys API in Google-Translate. <br>It allows you to translate te
 
 
 ## After a patch
-[✔] All pages are translated
+[✔] All pages are translated :sparkles:
 
 ## Settings
 ![Page settings][4]
 
 ## Install
-Run file **FixGoogleTranslate.crx** (also works Drag-in-Drop file to browser)<br>
-or <br>
-Browser App  ➡ Extension page  ➡ Develop mode **[On]** ➡ Click button **Load unpacked extension** ➡ Select folder **/extension** in dialog
+Run file `FixGoogleTranslate.crx` (also works Drag-in-Drop file to browser)<br>
+**or** <br>
+Browser App  ➡ Extension page  ➡ Activate `Develop mode` ➡ Click button `Load unpacked extension` ➡ Select folder `/extension` in dialog
 
 ## Create extension *.crx
 Arguments:
 
-name_file - Name result file
+`name_file` - Name result file
 
-chrome_path - path to chrome folder
+`chrome_path` - path to chrome folder
 
-file_path - path to extension folder
-
+`file_path` - path to extension folder
 ##### Python (any version)
+```pyton
     python create_crx.py "FixGoogleTranslate" "auto" "FixGoogleTranslate/v1.1.0/extension/"
+```
 
 ##### Windows (requires Python)
-run file **create_crx.bat** (auto-search chrome path)
+run file `create_crx.bat` (auto-search chrome path)
 ##### Linux (requires Python)
-run file **create_crx.sh** (auto-search chrome path)
+run file `create_crx.sh` (auto-search chrome path)
 
 if not run, mark it executable using and try again
-
+```batchfile
     $ chmod +x create.py
-
+```
 
 ## More
-If does not work one way, then you can try to enter your **dummytoken** in **background.js** file
+If does not work one way, then you can try to enter your `dummytoken` in `background.js` file
 
+```json
     2: {
            tmp: ['key=dummytoken', 'key=<YOUR TOKEN>'],
            state: false
        }
-
+```
 ## Compatibility
-Methods are **fully backward compatible** with all **chromium-like browsers** with **working Google API Keys**
+Methods are fully backward compatible with all chromium-like browsers with working Google API Keys
 
 ## License
 **[MIT License](https://opensource.org/licenses/MIT "Text license")**
