@@ -51,12 +51,11 @@ if not run, mark it executable using and try again
 ## More
 If does not work one way, then you can try to enter your `dummytoken` in `background.js` file
 
-```javascript
     2: {
            tmp: ['key=dummytoken', 'key=<YOUR TOKEN>'],
            state: false
        }
-```
+
 ## Compatibility
 Methods are fully backward compatible with all chromium-like browsers with working Google API Keys
 
