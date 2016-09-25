@@ -4,7 +4,9 @@
 [4]: Preview/param_page.png
 
 ![Icon][3]
-# FixGoogleTranslate [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vyach-vasiliev/FixGoogleTranslate/master/LICENSE) [![Chromium-like](https://img.shields.io/badge/Chrome_like-20+-40A977.svg)](https://en.wikipedia.org/wiki/Chromium_(web_browser))
+# FixGoogleTranslate [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vyach-vasiliev/FixGoogleTranslate/master/LICENSE)
+[![Chromium-like](https://img.shields.io/badge/Chrome_like-20+-40A977.svg)](https://en.wikipedia.org/wiki/Chromium_(web_browser))
+[![Localized](https://img.shields.io/badge/Localized-English,_Russian-e67e22.svg)](https://en.wikipedia.org/wiki/Chromium_(web_browser))
 
 Extension fixing keys API in Google-Translate. <br>It allows you to translate text on the pages without errors API.
 ## Problem
